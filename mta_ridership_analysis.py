@@ -339,5 +339,5 @@ def mta_plotter(transportmodes, date, start_date, end_date):
 
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8063)
+    app.run(debug=True)
 
