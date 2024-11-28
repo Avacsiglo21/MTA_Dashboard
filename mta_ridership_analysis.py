@@ -179,7 +179,7 @@ def format_title(transportmodes, total_values):
         elif value >= 1e6:
             value_str = f"{value / 1e6:.1f}M"
         else:
-            value_str = f"{value:.1f}"
+            value_str = f"{value / 1e3:.1f}K"
         titles.append(f"{mode}: {value_str}")
     return " | ".join(titles)
 
